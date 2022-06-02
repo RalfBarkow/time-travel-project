@@ -67,6 +67,9 @@ Class {
 	#instVars : [
 		'versions'
 	],
+	#classInstVars : [
+		'pay'
+	],
 	#category : #TimeTravel
 }
 
