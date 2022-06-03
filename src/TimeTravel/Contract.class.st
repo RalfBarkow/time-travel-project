@@ -85,12 +85,23 @@ Contract class >> pay: aPay [
 ]
 
 { #category : #accessing }
+Contract >> date: aDate [
+	^ '12/1/1999'
+]
+
+{ #category : #accessing }
 Contract >> versionAt: aDate [
-	^self versions detect: [:each | aPerspective > each date]
+	^ self versions detect: [:each | aDate > each date]
+]
+
+{ #category : #accessing }
+Contract >> versionAt: aDate put: aVersion [
+	aVersion date: aDate.
+	self versions add: aVersion
 ]
 
 { #category : #accessing }
 Contract >> versions [
 	versions isNil ifTrue: [versions := SortedCollection sortBlock: [:a :b | a date > b date]].
-	^versions
+	^ versions
 ]

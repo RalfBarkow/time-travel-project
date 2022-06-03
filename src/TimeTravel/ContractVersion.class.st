@@ -9,10 +9,21 @@ Class {
 		'date'
 	],
 	#classInstVars : [
-		'pay'
+		'pay',
+		'date'
 	],
 	#category : #TimeTravel
 }
+
+{ #category : #accessing }
+ContractVersion class >> date [
+	^ date
+]
+
+{ #category : #'as yet unclassified' }
+ContractVersion class >> date: aDate [
+	^ '12/1/1999'.
+]
 
 { #category : #tests }
 ContractVersion class >> pay: aPay [
