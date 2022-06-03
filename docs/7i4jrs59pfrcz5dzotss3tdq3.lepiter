@@ -7,11 +7,49 @@
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Page 1"
+		"title" : "Time Travel Project"
 	},
 	"children" : {
 		"__type" : "snippets",
-		"items" : [ ]
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-03T14:27:32.876558+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-03T14:27:37.129661+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wBR2+eucDQCYATNFAUm+fg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[wiki](https://wiki.ralfbarkow.ch/view/time-travel-project)"
+			}
+		]
 	},
 	"createEmail" : {
 		"__type" : "email",
@@ -32,7 +70,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-03T14:10:40.454167+02:00"
+			"dateAndTimeString" : "2022-06-03T14:27:26.019542+02:00"
 		}
 	}
 }
