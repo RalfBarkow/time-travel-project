@@ -65,7 +65,8 @@ Class {
 	#name : #Contract,
 	#superclass : #Object,
 	#instVars : [
-		'versions'
+		'versions',
+		'aPerspective'
 	],
 	#classInstVars : [
 		'pay'
@@ -81,4 +82,15 @@ Contract class >> pay [
 { #category : #constructing }
 Contract class >> pay: aPay [
 	pay := aPay. 
+]
+
+{ #category : #accessing }
+Contract >> versionAt: aDate [
+	^self versions detect: [:each | aPerspective > each date]
+]
+
+{ #category : #accessing }
+Contract >> versions [
+	versions isNil ifTrue: [versions := SortedCollection sortBlock: [:a :b | a date > b date]].
+	^versions
 ]
