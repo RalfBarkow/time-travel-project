@@ -5,7 +5,6 @@ Class {
 	#name : #ContractVersion,
 	#superclass : #Object,
 	#instVars : [
-		'pay',
 		'date'
 	],
 	#classInstVars : [
@@ -20,12 +19,23 @@ ContractVersion class >> date [
 	^ date
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 ContractVersion class >> date: aDate [
-	^ '12/1/1999'.
+	^(self new)
+		date: aDate.
 ]
 
 { #category : #tests }
 ContractVersion class >> pay: aPay [
 	pay := aPay.
+]
+
+{ #category : #accessing }
+ContractVersion >> date: aData [
+	^date := aData 
+]
+
+{ #category : #accessing }
+ContractVersion >> pay [
+	^ self
 ]
