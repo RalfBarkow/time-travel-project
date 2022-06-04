@@ -3,11 +3,11 @@
 	"__type" : "page",
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "bbbd72bf-eb9c-0d00-980b-ebe00149be7e"
+		"uuid" : "1e308d88-f89c-0d00-9388-81ca09d862f9"
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Time Travel Project"
+		"title" : "Introduction"
 	},
 	"children" : {
 		"__type" : "snippets",
@@ -26,7 +26,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-03T14:27:32.876558+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:36.672776+02:00"
 					}
 				},
 				"editEmail" : {
@@ -37,92 +37,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-03T14:27:37.129661+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:36.672776+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "wBR2+eucDQCYATNFAUm+fg=="
+					"uidString" : "sOuNiPicDQCTiRXlCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[wiki](https://wiki.ralfbarkow.ch/view/time-travel-project)"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-06-04T05:25:46.248081+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-06-04T05:25:48.142658+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "uRL/h/icDQCThitPCdhi+Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Introduction]]"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:13.995051+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:15.996267+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "7C4KbficDQCTZMqbCdhi+Q=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Time Travel]]"
+				"string" : "You get a raise on 1 March but the system doesn’t find out about it until mid-May. In the meantime, who knows what happens? Reconciling these two time lines, world time and system time, is one of the most difficult problems to solve in writing information systems. Many of the actions in business are irreversible. It is complicated and expensive to take an incorrect check back. To “make the check right”, you must discover what happened and to fix the situation."
 			},
 			{
 				"__type" : "textSnippet",
@@ -138,7 +63,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:15:50.518093+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:44.85241+02:00"
 					}
 				},
 				"editEmail" : {
@@ -149,17 +74,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:28.45386+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:44.85241+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "am1/ZPicDQCTW/UkCdhi+Q=="
+					"uidString" : "ImONi/icDQCTj1JkCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Another significant problem of writing business information systems is that the rhythms of the world are not the rhythms of the system. You would like to make changes, like giving an employee a raise in the middle of a pay period if that made sense. You would then like the system to behave reasonably under these conditions"
 			},
 			{
 				"__type" : "textSnippet",
@@ -175,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:16:30.139393+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:51.423091+02:00"
 					}
 				},
 				"editEmail" : {
@@ -186,17 +111,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:02.826841+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:51.423091+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0WToZvicDQCTXELXCdhi+Q=="
+					"uidString" : "NiLxi/icDQCTkYbYCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "The simplest business option for dealing with the difference between world time and system time is just to ignore the distinction and hope nobody notices. We have seen many systems that took exactly this approach. If the customers are unlikely to notice and the consequences are small enough, you might get away with pretending that all changes are instantaneous and perfect, perhaps even forever."
 			},
 			{
 				"__type" : "textSnippet",
@@ -212,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:17:00.636757+02:00"
+						"dateAndTimeString" : "2022-06-04T05:27:01.875301+02:00"
 					}
 				},
 				"editEmail" : {
@@ -223,17 +148,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:10.7778+02:00"
+						"dateAndTimeString" : "2022-06-04T05:27:01.875301+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "uneuaPicDQCTXWeUCdhi+Q=="
+					"uidString" : "Z1WSjPicDQCTk0AiCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "This isn’t a very satisfying answer, nor is it an adequate solution when the consequences of\ncalculating the wrong answer are severe or if not being able to fix an answer that later proves to be wrong causes hurts the business."
 			},
 			{
 				"__type" : "textSnippet",
@@ -249,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:17:13.62347+02:00"
+						"dateAndTimeString" : "2022-06-04T05:27:08.968171+02:00"
 					}
 				},
 				"editEmail" : {
@@ -260,17 +185,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:18.126136+02:00"
+						"dateAndTimeString" : "2022-06-04T05:27:08.968171+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "JRN+aficDQCTXi8vCdhi+Q=="
+					"uidString" : "iKj6jPicDQCTlR81Cdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Solving two problems when time flows by at two different rates-\n• navigating through changes,\n• processing changes on a time scale dictated by the business and not by the system-\nis the focus of this pattern language."
 			}
 		]
 	},
@@ -282,7 +207,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-03T14:10:40.454167+02:00"
+			"dateAndTimeString" : "2022-06-04T05:25:54.015393+02:00"
 		}
 	},
 	"editEmail" : {
@@ -293,7 +218,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-03T14:27:26.019542+02:00"
+			"dateAndTimeString" : "2022-06-04T05:25:54.015393+02:00"
 		}
 	}
 }

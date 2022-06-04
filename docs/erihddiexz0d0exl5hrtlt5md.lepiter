@@ -3,11 +3,11 @@
 	"__type" : "page",
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "bbbd72bf-eb9c-0d00-980b-ebe00149be7e"
+		"uuid" : "b57a656d-f89c-0d00-9366-f88409d862f9"
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Time Travel Project"
+		"title" : "Time Travel"
 	},
 	"children" : {
 		"__type" : "snippets",
@@ -26,7 +26,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-03T14:27:32.876558+02:00"
+						"dateAndTimeString" : "2022-06-04T05:18:30.425802+02:00"
 					}
 				},
 				"editEmail" : {
@@ -37,92 +37,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-03T14:27:37.129661+02:00"
+						"dateAndTimeString" : "2022-06-04T05:18:48.784391+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "wBR2+eucDQCYATNFAUm+fg=="
+					"uidString" : "iIhmbficDQCTZ7fGCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[wiki](https://wiki.ralfbarkow.ch/view/time-travel-project)"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-06-04T05:25:46.248081+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-06-04T05:25:48.142658+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "uRL/h/icDQCThitPCdhi+Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Introduction]]"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:13.995051+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:15.996267+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "7C4KbficDQCTZMqbCdhi+Q=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Time Travel]]"
+				"string" : "##A Pattern Language for Values That Change\nMassimo Arnoldi, LifeWare\nKent Beck, Daedalos Consulting\nMarkus Bieri, LifeWare\nManfred Lange, Hewlett-Packard [pdf](http://www.manfred-lange.com/publications/TimeTravel.pdf)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -138,7 +63,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:15:50.518093+02:00"
+						"dateAndTimeString" : "2022-06-04T05:19:08.336332+02:00"
 					}
 				},
 				"editEmail" : {
@@ -149,12 +74,86 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:18:28.45386+02:00"
+						"dateAndTimeString" : "2022-06-04T05:28:20.240462+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "am1/ZPicDQCTW/UkCdhi+Q=="
+					"uidString" : "Hj1XcPicDQCTa1rzCdhi+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "By splitting business objects for Time Travel and always processing through Period Enumeration, you can write systems with minimal extra complexity that make it possible to flexibly navigate and process changing business objects."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:19:14.923387+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:27:56.423881+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pT68cPicDQCTbZiKCdhi+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Introduction]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:19:22.287487+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:26:34.830106+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "q1IscficDQCTcJ5ICdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -175,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:16:30.139393+02:00"
+						"dateAndTimeString" : "2022-06-04T05:20:42.942847+02:00"
 					}
 				},
 				"editEmail" : {
@@ -186,12 +185,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:02.826841+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:39.302356+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0WToZvicDQCTXELXCdhi+Q=="
+					"uidString" : "3z77dficDQCTdSiLCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -212,7 +211,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:17:00.636757+02:00"
+						"dateAndTimeString" : "2022-06-04T05:21:15.68328+02:00"
 					}
 				},
 				"editEmail" : {
@@ -223,12 +222,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:10.7778+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:47.604226+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "uneuaPicDQCTXWeUCdhi+Q=="
+					"uidString" : "O4brd/icDQCTevKuCdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -249,7 +248,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:17:13.62347+02:00"
+						"dateAndTimeString" : "2022-06-04T05:21:56.301666+02:00"
 					}
 				},
 				"editEmail" : {
@@ -260,12 +259,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:19:18.126136+02:00"
+						"dateAndTimeString" : "2022-06-04T05:26:56.364668+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "JRN+aficDQCTXi8vCdhi+Q=="
+					"uidString" : "ZiBXevicDQCTf8lNCdhi+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:22:07.358173+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-04T05:27:04.302252+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qcIBe/icDQCTg5J6Cdhi+Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -282,7 +318,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-03T14:10:40.454167+02:00"
+			"dateAndTimeString" : "2022-06-04T05:18:18.428217+02:00"
 		}
 	},
 	"editEmail" : {
@@ -293,7 +329,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-03T14:27:26.019542+02:00"
+			"dateAndTimeString" : "2022-06-04T05:18:18.428217+02:00"
 		}
 	}
 }
