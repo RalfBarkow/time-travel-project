@@ -1,14 +1,10 @@
 "
-The naïve object model of a contract, for example, contains a single object to represent the contract.
-However, contracts change over time. The business relationship remains the same, somehow, but the
-details change.
+The naïve object model of a contract [wiki](https://wiki.ralfbarkow.ch/view/contract), for example, contains a single object to represent the contract. However, contracts change over time. The business relationship remains the same, somehow, but the details change.
 
 #Navigation Story
 ARNOLDI, Massimo, BECK, Kent, BIERI, Markus and LANGE, Manfred, [no date]. Time Travel: A Pattern Language for Values That Change. [pdf](http://www.manfred-lange.com/publications/TimeTravel.pdf), [wayback](https://web.archive.org/web/20211230084553/https://www.manfred-lange.com/publications/TimeTravel.pdf)
 
-Imagine we are working with a payroll system. An employee is paid based on a daily rate recorded in
-their contract. The pay rate changes from time to time. Periodically, the employee is actually paid
-based on the days worked and the pay rates in force when those days were worked.
+Imagine we are working with a payroll system. An employee is paid based on a daily rate recorded in their contract. The pay rate changes from time to time. Periodically, the employee is actually paid based on the days worked and the pay rates in force when those days were worked.
 
 The first story is that of a payroll employee who has to answer questions about paychecks.
 
@@ -21,20 +17,11 @@ last month.”
 adjusted your paycheck to reflect the increase. You should receive $1250 per month from
 now on.”
 
-The next step is turning these vague ideas into concrete code. We will do this by first presenting a set
-of test cases that, if they can be satisfied, will enable us to build the system implied by the stories.
-Then we will show, with patterns and with code, how the test cases can be satisfied.
+The next step is turning these vague ideas into concrete code. We will do this by first presenting a set of test cases that, if they can be satisfied, will enable us to build the system implied by the stories. Then we will show, with patterns and with code, how the test cases can be satisfied.
 
-You get a raise on 1 March but the system doesn’t find out about it until mid-May. In the meantime,
-who knows what happens? Reconciling these two time lines, world time and system time, is one of
-the most difficult problems to solve in writing information systems. Many of the actions in business
-are irreversible. It is complicated and expensive to take an incorrect check back. To “make the check
-right”, you must discover what happened and to fix the situation.
+You get a raise on 1 March but the system doesn’t find out about it until mid-May. In the meantime, who knows what happens? Reconciling these two time lines, world time and system time, is one of the most difficult problems to solve in writing information systems. Many of the actions in business are irreversible. It is complicated and expensive to take an incorrect check back. To “make the check right”, you must discover what happened and to fix the situation.
 
-To help answer the questions posed by the employee, the system must keep track of changes and
-when they happened. The simplest test case that helps reach this goal allows us to look up the pay rate
-on a particular date. Before we can write the test case, though, we must first introduce the pattern that
-transforms an immutable Contract to a Contract that can have changing pay rates:
+To help answer the questions posed by the employee, the system must keep track of changes and when they happened. The simplest test case that helps reach this goal allows us to look up the pay rate on a particular date. Before we can write the test case, though, we must first introduce the pattern that transforms an immutable Contract to a Contract that can have changing pay rates:
 
 #Version History
 Things change. You’d like to know what happened when. But people (and processes and
@@ -46,12 +33,11 @@ Split one conceptual object into two parts, one part that doesn’t change, the 
 part that does change, the Version. Give the History messages to store and retrieve versions
 similar to keyed access to a collection.
 
-• History>>versionAt: aTime put: aVersion - Says that from the point of view of aTime, the Version
-in force is now aVersion
+• History>>versionAt: aTime put: aVersion - Says that from the point of view of aTime, the Version in force is now aVersion
 • History>>versionAt: aTime – Returns the version visible from aTime
 
-Using Time Travel, we can refactor the naïve test case into one that can remember changing pay rates.
-For now we can use simple Dates as the lookup key.
+Using Time Travel, we can refactor the naïve test case into one that can remember changing pay rates. For now we can use simple Dates as the lookup key.
+
 NavigationTest>>#testPayToday
 ```
 | contract version |
@@ -66,7 +52,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'versions',
-		'aPerspective'
+		'aPerspective',
+		'date'
 	],
 	#classInstVars : [
 		'pay'
@@ -86,7 +73,7 @@ Contract class >> pay: aPay [
 
 { #category : #accessing }
 Contract >> date: aDate [
-	^ '12/1/1999'
+	^ date := aDate.
 ]
 
 { #category : #accessing }

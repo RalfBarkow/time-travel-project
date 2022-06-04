@@ -1,0 +1,43 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ '0' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'TestCase',
+				#traitCompositionSource : '{}',
+				#definitionSource : 'TestCase subclass: #NavigationTest\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TimeTravel\''
+			},
+			#name : #NavigationTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'NavigationTest class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'NavigationTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #NavigationTest,
+					#isMetaSide : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TimeTravel,
+			#package : #TimeTravel,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}
+
