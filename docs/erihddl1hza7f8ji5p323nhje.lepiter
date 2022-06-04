@@ -148,7 +148,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T05:40:42.907283+02:00"
+						"dateAndTimeString" : "2022-06-04T06:09:14.134811+02:00"
 					}
 				},
 				"uid" : {
@@ -158,7 +158,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The next step is turning these vague ideas into concrete code. We will do this by first presenting a set\nof test cases that, if they can be satisfied, will enable us to build the system implied by the stories.\nThen we will show, with patterns and with code, how the test cases can be satisfied."
+				"string" : "The next step is turning these vague ideas into concrete code. We will do this by first presenting a set of test cases that, if they can be satisfied, will enable us to build the system implied by the stories. Then we will show, with patterns and with code, how the test cases can be satisfied."
 			},
 			{
 				"__type" : "textSnippet",
