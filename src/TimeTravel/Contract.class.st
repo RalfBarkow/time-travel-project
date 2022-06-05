@@ -51,30 +51,13 @@ Class {
 	#name : #Contract,
 	#superclass : #Object,
 	#instVars : [
-		'versions',
-		'aPerspective',
-		'date'
+		'versions'
 	],
 	#classInstVars : [
 		'pay'
 	],
 	#category : #TimeTravel
 }
-
-{ #category : #'as yet unclassified' }
-Contract class >> pay [
-	^ pay
-]
-
-{ #category : #constructing }
-Contract class >> pay: aPay [
-	pay := aPay. 
-]
-
-{ #category : #accessing }
-Contract >> date: aDate [
-	^ date := aDate.
-]
 
 { #category : #accessing }
 Contract >> versionAt: aDate [

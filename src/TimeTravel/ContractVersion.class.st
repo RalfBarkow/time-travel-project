@@ -13,29 +13,3 @@ Class {
 	],
 	#category : #TimeTravel
 }
-
-{ #category : #accessing }
-ContractVersion class >> date [
-	^ date
-]
-
-{ #category : #accessing }
-ContractVersion class >> date: aDate [
-	^(self new)
-		date: aDate.
-]
-
-{ #category : #tests }
-ContractVersion class >> pay: aPay [
-	pay := aPay.
-]
-
-{ #category : #accessing }
-ContractVersion >> date: aData [
-	^date := aData 
-]
-
-{ #category : #accessing }
-ContractVersion >> pay [
-	^ self
-]
