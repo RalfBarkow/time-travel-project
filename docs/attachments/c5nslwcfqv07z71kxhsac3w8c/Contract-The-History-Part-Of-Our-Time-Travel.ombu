@@ -1,0 +1,145 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ '0' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t"This is a new method"',
+			#stamp : '',
+			#package : #TimeTravel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t| contract |\r\tcontract := Contract pay: 1000.\r\tself assert: contract pay = 1000',
+			#stamp : '',
+			#package : #TimeTravel
+		}
+	}
+}
+
+OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}',
+				#definitionSource : 'Object subclass: #Contract\r\tinstanceVariableNames: \'versions\'\r\tclassVariableNames: \'\'\r\tpackage: \'TimeTravel\''
+			},
+			#name : #Contract,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contract,
+						#isMetaSide : false
+					},
+					#name : #versions,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Contract class\r\tinstanceVariableNames: \'\''
+				},
+				#name : #'Contract class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Contract,
+					#isMetaSide : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TimeTravel,
+			#package : #TimeTravel,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}
+
+OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t| contract |\r\tcontract := Contract pay: 1000.\r\tself assert: contract pay = 1000',
+			#stamp : 'GlamorousAuthor 2/8/2022 07:43',
+			#package : #TimeTravel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t| contract |\r\tcontract := Contract pay: 1000.\r\tself assert: contract pay = 1000',
+			#stamp : 'GlamorousAuthor 2/8/2022 07:43',
+			#package : #TimeTravel
+		}
+	}
+}
+
+OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t| contract |\r\tcontract := Contract pay: 1000.\r\tself assert: contract pay = 1000',
+			#stamp : 'GlamorousAuthor 2/8/2022 07:43',
+			#package : #TimeTravel
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #NavigationTest,
+				#isMetaSide : false
+			},
+			#name : #testNaivePayToday,
+			#protocol : #accessing,
+			#sourceCode : 'testNaivePayToday\r\t| contract |\r\tcontract := Contract pay: 1000.\r\tself assert: contract pay = 1000',
+			#stamp : 'GlamorousAuthor 2/8/2022 07:43',
+			#package : #TimeTravel
+		}
+	}
+}
+

@@ -304,7 +304,7 @@
 				"fileName" : "attachments/erihddku6p4zg04lyxusbj92d/CreateClassNavigationTest.ombu"
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "changesSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -317,7 +317,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T06:49:42.586947+02:00"
+						"dateAndTimeString" : "2022-06-05T16:00:38.87128+02:00"
 					}
 				},
 				"editEmail" : {
@@ -328,14 +328,15 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T06:49:43.365562+02:00"
+						"dateAndTimeString" : "2022-06-05T16:00:38.87128+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "iRpHtPmcDQCyYiqYCqzB8w=="
+					"uidString" : "N1lthBWdDQC1yFiQAb1ZzQ=="
 				},
-				"code" : "NavigationTest>>testNaivePayToday"
+				"previewHeight" : 200,
+				"fileName" : "attachments/c5nslwcfqv07z71kxhsac3w8c/Contract-The-History-Part-Of-Our-Time-Travel.ombu"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -385,6 +386,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:00:32.349895+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:00:32.349895+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "G8cJhBWdDQC1xq/RAb1ZzQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The naïve object model of a contract, for example, contains a single object to represent the contract."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-06-04T06:34:37.565483+02:00"
 					}
 				},
@@ -396,7 +434,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T06:34:49.337184+02:00"
+						"dateAndTimeString" : "2022-06-05T16:00:32.377758+02:00"
 					}
 				},
 				"uid" : {
@@ -406,7 +444,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The naïve object model of a contract, for example, contains a single object to represent the contract.\nHowever, contracts change over time. The business relationship remains the same, somehow, but the details change."
+				"string" : "However, contracts change over time. The business relationship remains the same, somehow, but the details change."
 			},
 			{
 				"__type" : "textSnippet",

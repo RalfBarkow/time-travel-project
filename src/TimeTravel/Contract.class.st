@@ -60,6 +60,10 @@ Class {
 }
 
 { #category : #accessing }
+Contract class >> pay: anInteger [ 
+]
+
+{ #category : #accessing }
 Contract >> versionAt: aDate [
 	^ self versions detect: [:each | aDate > each date]
 ]
