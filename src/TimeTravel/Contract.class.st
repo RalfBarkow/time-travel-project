@@ -23,7 +23,7 @@ You get a raise on 1 March but the system doesn’t find out about it until mid-
 
 To help answer the questions posed by the employee, the system must keep track of changes and when they happened. The simplest test case that helps reach this goal allows us to look up the pay rate on a particular date. Before we can write the test case, though, we must first introduce the pattern that transforms an immutable Contract to a Contract that can have changing pay rates:
 
-#Version History
+#Version History [wiki](https://wiki.ralfbarkow.ch/view/version-history)
 Things change. You’d like to know what happened when. But people (and processes and organizations) are imperfect. Put these three facts together and you are faced with a challenge. How do you construct objects that can record and compute correctly in spite of imperfect recording of change?
 
 Split one conceptual object into two parts, one part that doesn’t change, the History, and one
