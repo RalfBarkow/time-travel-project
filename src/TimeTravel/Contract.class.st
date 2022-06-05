@@ -60,7 +60,13 @@ Class {
 }
 
 { #category : #accessing }
-Contract class >> pay: anInteger [ 
+Contract class >> pay [
+	^pay 
+]
+
+{ #category : #accessing }
+Contract class >> pay: anInteger [
+	pay := anInteger 
 ]
 
 { #category : #accessing }
