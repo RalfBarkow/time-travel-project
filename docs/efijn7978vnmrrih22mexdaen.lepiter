@@ -26,6 +26,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:46:45.409342+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:46:45.409342+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LUtTKRadDQC18CxCAb1ZzQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Things change. You’d like to know what happened when. But people (and processes and\rorganizations) are imperfect. Put these three facts together and you are faced with a\rchallenge. How do you construct objects that can record and compute correctly in spite of\rimperfect recording of change?\r\rSplit one conceptual object into two parts, one part that doesn’t change, the History, and one\rpart that does change, the Version. Give the History messages to store and retrieve versions\rsimilar to keyed access to a collection.\r\r• History>>versionAt: aTime put: aVersion - Says that from the point of view of aTime, the Version in force is now aVersion\r• History>>versionAt: aTime – Returns the version visible from aTime"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-06-04T06:58:21.486284+02:00"
 					}
 				},
@@ -37,7 +74,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T06:58:21.486284+02:00"
+						"dateAndTimeString" : "2022-06-05T16:46:45.471133+02:00"
 					}
 				},
 				"uid" : {
@@ -47,189 +84,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Things change. You’d like to know what happened when. But people (and processes and\rorganizations) are imperfect. Put these three facts together and you are faced with a\rchallenge. How do you construct objects that can record and compute correctly in spite of\rimperfect recording of change?\r\rSplit one conceptual object into two parts, one part that doesn’t change, the History, and one\rpart that does change, the Version. Give the History messages to store and retrieve versions\rsimilar to keyed access to a collection.\r\r• History>>versionAt: aTime put: aVersion - Says that from the point of view of aTime, the Version in force is now aVersion\r• History>>versionAt: aTime – Returns the version visible from aTime\r\rUsing Time Travel, we can refactor the naïve test case into one that can remember changing pay rates. For now we can use simple Dates as the lookup key.\n\rNavigationTest>>#testPayToday\r```\r| contract version |\rcontract := Contract new.\rversion := ContractVersion pay: 1000.\rcontract versionAt: '2/1/99' asDate put: version.\rself assert: (contract versionAt: '2/1/99' asDate) pay = 1000\r```"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:32:43.872327+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:32:43.872327+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "hVgiTvqcDQCy7/9fCqzB8w=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Using Time Travel, we can refactor the naïve test case into one that can remember changing pay rates. For now we can use simple Dates as the lookup key."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:31:59.930991+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:32:43.902265+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "nK92S/qcDQCy6/chCqzB8w=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "NavigationTest>>testPayToday"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:32:11.275615+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:32:11.966049+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "pgExTPqcDQCy7VQ7CqzB8w=="
-				},
-				"code" : "| contract version |\ncontract := Contract new.\nversion := ContractVersion pay: 1000.\ncontract versionAt: '2/1/99' asDate put: version.\nself assert: (contract versionAt: '2/1/99' asDate) pay = 1000"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:35:13.367892+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:35:13.367892+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "fZP8VvqcDQCy8ntDCqzB8w=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "To make this test case run, first we create Contract (the History part of our Time Travel):\nContract\nSuperclass: Object\nInstance variables: versions"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:35:37.055629+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:35:37.055629+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "E/9fWPqcDQCy9IlACqzB8w=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Now we can define the ContractVersion (we omit the Constructor Method #pay:)\nContractVersion\nSuperclass: Object\nInstance variables: pay date"
+				"string" : "Using Time Travel, we can refactor the naïve test case into one that can remember changing pay rates. For now we can use simple Dates as the lookup key.\n\rNavigationTest>>#testPayToday\r```\r| contract version |\rcontract := Contract new.\rversion := ContractVersion pay: 1000.\rcontract versionAt: '2/1/99' asDate put: version.\rself assert: (contract versionAt: '2/1/99' asDate) pay = 1000\r```"
 			},
 			{
 				"__type" : "textSnippet",
@@ -256,7 +111,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-04T07:36:56.427251+02:00"
+						"dateAndTimeString" : "2022-06-05T16:51:24.965623+02:00"
 					}
 				},
 				"uid" : {
@@ -266,7 +121,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "With this in place, we can implement the two visible methods in Contract: `#versionAt:put:` and\n`#versionAt:`. (In some cases you will want to make a Safe Copy of the Version before you store it, but we are just careful not to modify a Version after we have stored it in a History.)\nContract>>versionAt: aDate put: aVersion\naVersion date: aDate.\nself versions add: aVersion"
+				"string" : "With this in place, we can implement the two visible methods in Contract: `#versionAt:put:` and\n`#versionAt:`. (In some cases you will want to make a Safe Copy of the Version before you store it, but we are just careful not to modify a Version after we have stored it in a History.)\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:51:20.897665+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-05T16:51:26.843816+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xPy+ORadDQC19StaAb1ZzQ=="
+				},
+				"code" : "Contract>>versionAt: aDate put: aVersion\naVersion date: aDate.\nself versions add: aVersion"
 			},
 			{
 				"__type" : "textSnippet",
