@@ -15,6 +15,11 @@ Class {
 }
 
 { #category : #accessing }
+ContractVersion class >> date [
+	^date
+]
+
+{ #category : #accessing }
 ContractVersion class >> date: aDate [
 	date := aDate
 ]
