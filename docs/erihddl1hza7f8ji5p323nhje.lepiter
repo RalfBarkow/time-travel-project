@@ -400,7 +400,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:43:33.520226+02:00"
+						"dateAndTimeString" : "2022-06-06T10:12:43.87793+02:00"
 					}
 				},
 				"uid" : {
@@ -508,7 +508,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:00:32.377758+02:00"
+						"dateAndTimeString" : "2022-06-06T10:12:43.932452+02:00"
 					}
 				},
 				"uid" : {
@@ -593,43 +593,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "[[Version History]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:45:10.296671+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:45:10.296671+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "QIiaIxadDQC15IDPAb1ZzQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Instance of ContractVersion class did not understand #pay:"
 			}
 		]
 	},

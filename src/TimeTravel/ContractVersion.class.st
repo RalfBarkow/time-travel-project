@@ -13,3 +13,8 @@ Class {
 	],
 	#category : #TimeTravel
 }
+
+{ #category : #accessing }
+ContractVersion class >> pay: anInteger [
+	pay := anInteger 
+]

@@ -74,7 +74,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:46:45.471133+02:00"
+						"dateAndTimeString" : "2022-06-06T10:12:43.74362+02:00"
 					}
 				},
 				"uid" : {
@@ -85,6 +85,81 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Using Time Travel, we can refactor the naïve test case into one that can remember changing pay rates. For now we can use simple Dates as the lookup key.\n\rNavigationTest>>#testPayToday\r```\r| contract version |\rcontract := Contract new.\rversion := ContractVersion pay: 1000.\rcontract versionAt: '2/1/99' asDate put: version.\rself assert: (contract versionAt: '2/1/99' asDate) pay = 1000\r```"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-06-06T10:15:57.225732+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-06-06T10:15:57.225732+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mvl90SSdDQCNr2O1C+oghA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "NavigationTest>>#testPayLastMonth"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-06T10:14:31.24991+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-06T10:14:44.351381+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rjpgzCSdDQCNqATPC+oghA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**//TODO **Instance of ContractVersion class did not understand #pay:"
 			},
 			{
 				"__type" : "textSnippet",
@@ -111,7 +186,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:51:24.965623+02:00"
+						"dateAndTimeString" : "2022-06-06T10:12:43.744486+02:00"
 					}
 				},
 				"uid" : {
@@ -122,40 +197,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "With this in place, we can implement the two visible methods in Contract: `#versionAt:put:` and\n`#versionAt:`. (In some cases you will want to make a Safe Copy of the Version before you store it, but we are just careful not to modify a Version after we have stored it in a History.)\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:51:20.897665+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-05T16:51:26.843816+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "xPy+ORadDQC19StaAb1ZzQ=="
-				},
-				"code" : "Contract>>versionAt: aDate put: aVersion\naVersion date: aDate.\nself versions add: aVersion"
 			},
 			{
 				"__type" : "textSnippet",
