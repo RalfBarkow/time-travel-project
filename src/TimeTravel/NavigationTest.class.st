@@ -14,6 +14,15 @@ NavigationTest >> payToday [
 	^ (contract versionAt: '2/1/99' asDate) pay
 ]
 
+{ #category : #accessing }
+NavigationTest >> payTodayAssert [
+	<gtExample>
+	| pay |
+	pay := self payToday.
+	self assert: pay = 1000
+
+]
+
 { #category : #tests }
 NavigationTest >> testNaivePayToday [
 
