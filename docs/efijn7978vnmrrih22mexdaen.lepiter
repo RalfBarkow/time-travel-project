@@ -507,7 +507,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-07T18:39:28.439506+02:00"
+						"dateAndTimeString" : "2022-06-07T19:43:58.649406+02:00"
 					}
 				},
 				"uid" : {
@@ -517,7 +517,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This test case is already satisfied by the code above. (?)"
+				"string" : "This test case is already satisfied by the code above. "
 			}
 		]
 	},
