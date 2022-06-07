@@ -5,7 +5,8 @@ Class {
 	#name : #ContractVersion,
 	#superclass : #Object,
 	#instVars : [
-		'date'
+		'date',
+		'pay'
 	],
 	#classInstVars : [
 		'pay',
@@ -31,5 +32,26 @@ ContractVersion class >> pay [
 
 { #category : #accessing }
 ContractVersion class >> pay: anInteger [
-	pay := anInteger 
+	^ (self new)
+	pay:anInteger.
+]
+
+{ #category : #accessing }
+ContractVersion >> date [
+	^ date
+]
+
+{ #category : #accessing }
+ContractVersion >> date: aDate [
+	date := aDate
+]
+
+{ #category : #accessing }
+ContractVersion >> pay [
+	^ pay
+]
+
+{ #category : #accessing }
+ContractVersion >> pay: anInteger [ 
+	pay := anInteger
 ]

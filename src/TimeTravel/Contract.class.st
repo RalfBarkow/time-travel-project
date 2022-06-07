@@ -80,6 +80,6 @@ Contract >> versionAt: aDate put: aVersion [
 { #category : #accessing }
 Contract >> versions [
 	"The instance variable “versions” will be lazily initialized to a SortedCollection of Versions. "
-	versions isNil ifTrue: [versions := SortedCollection sortBlock: [:a :b | a date > b date]].
+	versions isNil ifTrue: [versions := SortedCollection sortBlock: [:a :b | a date >= b date]].
 	^ versions
 ]

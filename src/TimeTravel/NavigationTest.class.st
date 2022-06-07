@@ -5,6 +5,17 @@ Class {
 }
 
 { #category : #accessing }
+NavigationTest >> examplePayLastMonth [
+	<gtExample>
+	| contract firstVersion secondVersion |
+	contract := Contract new.
+	firstVersion := ContractVersion pay: 1000. "1 February 1999"
+	contract versionAt: '1/1/99' asDate put: firstVersion. " 1 January 1999"
+	secondVersion := ContractVersion pay: 2000. "1 January 1999"
+	contract versionAt: '2/1/99' asDate put: secondVersion.
+]
+
+{ #category : #accessing }
 NavigationTest >> payLastMonth [
 	<gtExample>
 	| contract firstVersion secondVersion |
