@@ -68,7 +68,7 @@ Contract class >> pay: anInteger [
 
 { #category : #accessing }
 Contract >> versionAt: aDate [
-	^ self versions detect: [:each | aDate > each date]
+	^ self versions detect: [:each | aDate >= each date]
 ]
 
 { #category : #accessing }
@@ -79,6 +79,7 @@ Contract >> versionAt: aDate put: aVersion [
 
 { #category : #accessing }
 Contract >> versions [
+	"The instance variable “versions” will be lazily initialized to a SortedCollection of Versions. "
 	versions isNil ifTrue: [versions := SortedCollection sortBlock: [:a :b | a date > b date]].
 	^ versions
 ]
