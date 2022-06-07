@@ -4,6 +4,16 @@ Class {
 	#category : #TimeTravel
 }
 
+{ #category : #accessing }
+NavigationTest >> payToday [
+	<gtExample>
+	| contract version |
+	contract := Contract new.
+	version := ContractVersion pay: 1000.
+	contract versionAt: '1/2/99' asDate put: version.
+	^ (contract versionAt: '2/1/99' asDate) pay
+]
+
 { #category : #tests }
 NavigationTest >> testNaivePayToday [
 
@@ -32,7 +42,7 @@ NavigationTest >> testPayToday [
 	contract := Contract new.
 	version := ContractVersion pay: 1000.
 	contract versionAt: '2/1/99' asDate put: version.
-	self assert: (contract versionAt: '2/1/99' asDate) pay equals: 1000
+	self assert: (contract versionAt: '2/1/99' asDate) pay = 1000
 ]
 
 { #category : #accessing }
