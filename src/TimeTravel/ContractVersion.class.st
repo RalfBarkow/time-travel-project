@@ -16,12 +16,17 @@ Class {
 
 { #category : #accessing }
 ContractVersion class >> date [
-	^date
+	^ date
 ]
 
 { #category : #accessing }
 ContractVersion class >> date: aDate [
 	date := aDate
+]
+
+{ #category : #accessing }
+ContractVersion class >> pay [
+	^ pay
 ]
 
 { #category : #accessing }

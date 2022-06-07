@@ -58,7 +58,7 @@ Class {
 
 { #category : #accessing }
 Contract class >> pay [
-	^pay 
+	^ pay 
 ]
 
 { #category : #accessing }
