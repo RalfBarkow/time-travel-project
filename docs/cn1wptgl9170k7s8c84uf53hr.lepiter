@@ -7,7 +7,7 @@
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Example-Driven development"
+		"title" : "Example-Driven Development"
 	},
 	"children" : {
 		"__type" : "snippets",
@@ -90,7 +90,45 @@
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-06-07T14:50:32.408578+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-06-07T14:50:54.803587+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "acvSxDydDQCl/gcAD62d8A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**Note**: Damien pointed out to me via [discord](https://discord.com/channels/729445214812504107/755319168504692778/983712531803680809 ) that the dates in the gtExample `payToday` are different but identical in `testPayToday`."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -111,14 +149,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-07T06:13:09.197232+02:00"
+						"dateAndTimeString" : "2022-06-07T14:51:26.753766+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "wjzYgzWdDQCOsIHYBsqC1Q=="
 				},
-				"code" : "contract := Contract new.\rversion := ContractVersion pay: 1000.\rcontract versionAt: '1/2/99' asDate put: version.\r(contract versionAt: '2/1/99' asDate) pay"
+				"code" : "contract := Contract new.\rversion := ContractVersion pay: 1000.\rcontract versionAt: '2/1/99' asDate put: version.\r(contract versionAt: '2/1/99' asDate) pay"
 			},
 			{
 				"__type" : "textSnippet",
@@ -249,7 +287,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-06-07T05:59:39.401283+02:00"
+			"dateAndTimeString" : "2022-06-07T14:53:37.064014+02:00"
 		}
 	}
 }
