@@ -1,7 +1,7 @@
 Class {
 	#name : #NavigationTest,
 	#superclass : #TestCase,
-	#category : #TimeTravel
+	#category : #'TimeTravel-Tests'
 }
 
 { #category : #accessing }
