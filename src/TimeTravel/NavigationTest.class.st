@@ -10,7 +10,7 @@ NavigationTest >> payToday [
 	| contract version |
 	contract := Contract new.
 	version := ContractVersion pay: 1000.
-	contract versionAt: '1/2/99' asDate put: version.
+	contract versionAt: '2/1/99' asDate put: version.
 	^ (contract versionAt: '2/1/99' asDate) pay
 ]
 
