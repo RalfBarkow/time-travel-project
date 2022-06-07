@@ -9,17 +9,6 @@ NavigationTest >> examplePayLastMonth [
 	<gtExample>
 	| contract firstVersion secondVersion |
 	contract := Contract new.
-	firstVersion := ContractVersion pay: 1000. "1 February 1999"
-	contract versionAt: '1/1/99' asDate put: firstVersion. " 1 January 1999"
-	secondVersion := ContractVersion pay: 2000. "1 January 1999"
-	contract versionAt: '2/1/99' asDate put: secondVersion.
-]
-
-{ #category : #accessing }
-NavigationTest >> payLastMonth [
-	<gtExample>
-	| contract firstVersion secondVersion |
-	contract := Contract new.
 	firstVersion := ContractVersion pay: 1000.
 	contract versionAt: '1/1/99' asDate put: firstVersion.
 	secondVersion := ContractVersion pay: 2000.
@@ -27,7 +16,7 @@ NavigationTest >> payLastMonth [
 ]
 
 { #category : #accessing }
-NavigationTest >> payToday [
+NavigationTest >> examplePayToday [
 	<gtExample>
 	| contract version |
 	contract := Contract new.
@@ -37,10 +26,10 @@ NavigationTest >> payToday [
 ]
 
 { #category : #accessing }
-NavigationTest >> payTodayAssert [
+NavigationTest >> examplePayTodayAssert [
 	<gtExample>
 	| pay |
-	pay := self payToday.
+	pay := self examplePayToday.
 	self assert: pay = 1000
 
 ]
